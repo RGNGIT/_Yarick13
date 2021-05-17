@@ -100,7 +100,7 @@ namespace _Botanik
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(776, 426);
+            this.tabControl1.Size = new System.Drawing.Size(1075, 508);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -124,14 +124,14 @@ namespace _Botanik
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(768, 400);
+            this.tabPage1.Size = new System.Drawing.Size(1067, 482);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Полив";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // buttonAddMain
             // 
-            this.buttonAddMain.Location = new System.Drawing.Point(524, 371);
+            this.buttonAddMain.Location = new System.Drawing.Point(820, 449);
             this.buttonAddMain.Name = "buttonAddMain";
             this.buttonAddMain.Size = new System.Drawing.Size(238, 23);
             this.buttonAddMain.TabIndex = 19;
@@ -141,7 +141,7 @@ namespace _Botanik
             // 
             // textBoxWaterLitres
             // 
-            this.textBoxWaterLitres.Location = new System.Drawing.Point(524, 258);
+            this.textBoxWaterLitres.Location = new System.Drawing.Point(820, 413);
             this.textBoxWaterLitres.Name = "textBoxWaterLitres";
             this.textBoxWaterLitres.Size = new System.Drawing.Size(238, 20);
             this.textBoxWaterLitres.TabIndex = 18;
@@ -149,7 +149,7 @@ namespace _Botanik
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(521, 242);
+            this.label10.Location = new System.Drawing.Point(817, 397);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(69, 13);
             this.label10.TabIndex = 17;
@@ -157,7 +157,7 @@ namespace _Botanik
             // 
             // textBoxWaterAmount
             // 
-            this.textBoxWaterAmount.Location = new System.Drawing.Point(524, 219);
+            this.textBoxWaterAmount.Location = new System.Drawing.Point(551, 452);
             this.textBoxWaterAmount.Name = "textBoxWaterAmount";
             this.textBoxWaterAmount.Size = new System.Drawing.Size(238, 20);
             this.textBoxWaterAmount.TabIndex = 16;
@@ -165,7 +165,7 @@ namespace _Botanik
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(521, 203);
+            this.label9.Location = new System.Drawing.Point(548, 436);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(111, 13);
             this.label9.TabIndex = 15;
@@ -173,7 +173,7 @@ namespace _Botanik
             // 
             // textBoxPlantTime
             // 
-            this.textBoxPlantTime.Location = new System.Drawing.Point(524, 180);
+            this.textBoxPlantTime.Location = new System.Drawing.Point(551, 413);
             this.textBoxPlantTime.Name = "textBoxPlantTime";
             this.textBoxPlantTime.Size = new System.Drawing.Size(238, 20);
             this.textBoxPlantTime.TabIndex = 14;
@@ -181,7 +181,7 @@ namespace _Botanik
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(521, 164);
+            this.label8.Location = new System.Drawing.Point(548, 397);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(79, 13);
             this.label8.TabIndex = 13;
@@ -191,7 +191,7 @@ namespace _Botanik
             // 
             this.comboBoxEmpl.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxEmpl.FormattingEnabled = true;
-            this.comboBoxEmpl.Location = new System.Drawing.Point(524, 101);
+            this.comboBoxEmpl.Location = new System.Drawing.Point(280, 413);
             this.comboBoxEmpl.Name = "comboBoxEmpl";
             this.comboBoxEmpl.Size = new System.Drawing.Size(238, 21);
             this.comboBoxEmpl.TabIndex = 12;
@@ -199,7 +199,7 @@ namespace _Botanik
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(521, 85);
+            this.label7.Location = new System.Drawing.Point(277, 397);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(60, 13);
             this.label7.TabIndex = 11;
@@ -209,7 +209,7 @@ namespace _Botanik
             // 
             this.comboBoxType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxType.FormattingEnabled = true;
-            this.comboBoxType.Location = new System.Drawing.Point(524, 61);
+            this.comboBoxType.Location = new System.Drawing.Point(9, 452);
             this.comboBoxType.Name = "comboBoxType";
             this.comboBoxType.Size = new System.Drawing.Size(238, 21);
             this.comboBoxType.TabIndex = 10;
@@ -217,7 +217,7 @@ namespace _Botanik
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(521, 45);
+            this.label6.Location = new System.Drawing.Point(6, 436);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(76, 13);
             this.label6.TabIndex = 9;
@@ -225,7 +225,7 @@ namespace _Botanik
             // 
             // dateTimePickerDatePlant
             // 
-            this.dateTimePickerDatePlant.Location = new System.Drawing.Point(524, 141);
+            this.dateTimePickerDatePlant.Location = new System.Drawing.Point(280, 453);
             this.dateTimePickerDatePlant.Name = "dateTimePickerDatePlant";
             this.dateTimePickerDatePlant.Size = new System.Drawing.Size(238, 20);
             this.dateTimePickerDatePlant.TabIndex = 8;
@@ -233,7 +233,7 @@ namespace _Botanik
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(521, 125);
+            this.label5.Location = new System.Drawing.Point(277, 437);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(78, 13);
             this.label5.TabIndex = 7;
@@ -241,7 +241,7 @@ namespace _Botanik
             // 
             // textBoxPlantName
             // 
-            this.textBoxPlantName.Location = new System.Drawing.Point(524, 22);
+            this.textBoxPlantName.Location = new System.Drawing.Point(9, 413);
             this.textBoxPlantName.Name = "textBoxPlantName";
             this.textBoxPlantName.Size = new System.Drawing.Size(238, 20);
             this.textBoxPlantName.TabIndex = 6;
@@ -249,7 +249,7 @@ namespace _Botanik
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(521, 6);
+            this.label4.Location = new System.Drawing.Point(6, 397);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 13);
             this.label4.TabIndex = 5;
@@ -260,7 +260,7 @@ namespace _Botanik
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(6, 6);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(512, 388);
+            this.dataGridView2.Size = new System.Drawing.Size(1052, 388);
             this.dataGridView2.TabIndex = 1;
             // 
             // tabPage2
@@ -270,7 +270,7 @@ namespace _Botanik
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(768, 400);
+            this.tabPage2.Size = new System.Drawing.Size(1067, 482);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Справочник";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -279,10 +279,10 @@ namespace _Botanik
             // 
             this.tabControl2.Controls.Add(this.tabPage5);
             this.tabControl2.Controls.Add(this.tabPage6);
-            this.tabControl2.Location = new System.Drawing.Point(521, 6);
+            this.tabControl2.Location = new System.Drawing.Point(6, 6);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(241, 388);
+            this.tabControl2.Size = new System.Drawing.Size(289, 470);
             this.tabControl2.TabIndex = 5;
             this.tabControl2.SelectedIndexChanged += new System.EventHandler(this.tabControl2_SelectedIndexChanged);
             // 
@@ -294,7 +294,7 @@ namespace _Botanik
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(233, 362);
+            this.tabPage5.Size = new System.Drawing.Size(281, 444);
             this.tabPage5.TabIndex = 0;
             this.tabPage5.Text = "Тип растения";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -303,14 +303,14 @@ namespace _Botanik
             // 
             this.textBoxPlantType.Location = new System.Drawing.Point(6, 19);
             this.textBoxPlantType.Name = "textBoxPlantType";
-            this.textBoxPlantType.Size = new System.Drawing.Size(221, 20);
+            this.textBoxPlantType.Size = new System.Drawing.Size(269, 20);
             this.textBoxPlantType.TabIndex = 1;
             // 
             // AddType
             // 
-            this.AddType.Location = new System.Drawing.Point(6, 333);
+            this.AddType.Location = new System.Drawing.Point(6, 415);
             this.AddType.Name = "AddType";
-            this.AddType.Size = new System.Drawing.Size(221, 23);
+            this.AddType.Size = new System.Drawing.Size(269, 23);
             this.AddType.TabIndex = 3;
             this.AddType.Text = "Добавить тип";
             this.AddType.UseVisualStyleBackColor = true;
@@ -335,16 +335,16 @@ namespace _Botanik
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(233, 362);
+            this.tabPage6.Size = new System.Drawing.Size(281, 444);
             this.tabPage6.TabIndex = 1;
             this.tabPage6.Text = "Служитель";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // buttonAddEmpl
             // 
-            this.buttonAddEmpl.Location = new System.Drawing.Point(6, 333);
+            this.buttonAddEmpl.Location = new System.Drawing.Point(6, 415);
             this.buttonAddEmpl.Name = "buttonAddEmpl";
-            this.buttonAddEmpl.Size = new System.Drawing.Size(221, 23);
+            this.buttonAddEmpl.Size = new System.Drawing.Size(269, 23);
             this.buttonAddEmpl.TabIndex = 9;
             this.buttonAddEmpl.Text = "Добавить служащего";
             this.buttonAddEmpl.UseVisualStyleBackColor = true;
@@ -354,7 +354,7 @@ namespace _Botanik
             // 
             this.textBoxPhone.Location = new System.Drawing.Point(6, 58);
             this.textBoxPhone.Name = "textBoxPhone";
-            this.textBoxPhone.Size = new System.Drawing.Size(221, 20);
+            this.textBoxPhone.Size = new System.Drawing.Size(269, 20);
             this.textBoxPhone.TabIndex = 8;
             // 
             // label3
@@ -370,7 +370,7 @@ namespace _Botanik
             // 
             this.textBoxFIO.Location = new System.Drawing.Point(6, 19);
             this.textBoxFIO.Name = "textBoxFIO";
-            this.textBoxFIO.Size = new System.Drawing.Size(221, 20);
+            this.textBoxFIO.Size = new System.Drawing.Size(269, 20);
             this.textBoxFIO.TabIndex = 6;
             // 
             // label2
@@ -385,9 +385,9 @@ namespace _Botanik
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 6);
+            this.dataGridView1.Location = new System.Drawing.Point(301, 6);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(509, 388);
+            this.dataGridView1.Size = new System.Drawing.Size(760, 470);
             this.dataGridView1.TabIndex = 0;
             // 
             // tabPage3
@@ -396,7 +396,7 @@ namespace _Botanik
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(768, 400);
+            this.tabPage3.Size = new System.Drawing.Size(1067, 482);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Отчет";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -408,7 +408,7 @@ namespace _Botanik
             this.tabControl3.Location = new System.Drawing.Point(6, 6);
             this.tabControl3.Name = "tabControl3";
             this.tabControl3.SelectedIndex = 0;
-            this.tabControl3.Size = new System.Drawing.Size(756, 388);
+            this.tabControl3.Size = new System.Drawing.Size(1055, 473);
             this.tabControl3.TabIndex = 0;
             // 
             // tabPage7
@@ -422,7 +422,7 @@ namespace _Botanik
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(748, 362);
+            this.tabPage7.Size = new System.Drawing.Size(1047, 447);
             this.tabPage7.TabIndex = 0;
             this.tabPage7.Text = "Перечень растений на заданную дату";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -447,7 +447,7 @@ namespace _Botanik
             // 
             // buttonRep1
             // 
-            this.buttonRep1.Location = new System.Drawing.Point(6, 333);
+            this.buttonRep1.Location = new System.Drawing.Point(6, 418);
             this.buttonRep1.Name = "buttonRep1";
             this.buttonRep1.Size = new System.Drawing.Size(200, 23);
             this.buttonRep1.TabIndex = 3;
@@ -460,7 +460,7 @@ namespace _Botanik
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Location = new System.Drawing.Point(212, 6);
             this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(530, 350);
+            this.dataGridView3.Size = new System.Drawing.Size(829, 435);
             this.dataGridView3.TabIndex = 2;
             // 
             // dateTimePickerTo
@@ -486,7 +486,7 @@ namespace _Botanik
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(748, 362);
+            this.tabPage8.Size = new System.Drawing.Size(1047, 447);
             this.tabPage8.TabIndex = 1;
             this.tabPage8.Text = "Режим полива для определенного растения";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -511,7 +511,7 @@ namespace _Botanik
             // 
             // buttonWatering
             // 
-            this.buttonWatering.Location = new System.Drawing.Point(6, 333);
+            this.buttonWatering.Location = new System.Drawing.Point(6, 418);
             this.buttonWatering.Name = "buttonWatering";
             this.buttonWatering.Size = new System.Drawing.Size(200, 23);
             this.buttonWatering.TabIndex = 4;
@@ -524,7 +524,7 @@ namespace _Botanik
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView4.Location = new System.Drawing.Point(212, 6);
             this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.Size = new System.Drawing.Size(530, 350);
+            this.dataGridView4.Size = new System.Drawing.Size(829, 435);
             this.dataGridView4.TabIndex = 3;
             // 
             // tabPage4
@@ -532,7 +532,7 @@ namespace _Botanik
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(768, 400);
+            this.tabPage4.Size = new System.Drawing.Size(1067, 508);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Помощь";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -541,7 +541,7 @@ namespace _Botanik
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1098, 532);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Botanik";
