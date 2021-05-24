@@ -40,6 +40,7 @@ namespace _Botanik
         {
             comboBoxEmpl.Items.Clear();
             comboBoxType.Items.Clear();
+            comboBoxWateringAdd.Items.Clear();
             foreach(string i in Database.FIO)
             {
                 comboBoxEmpl.Items.Add(i);
@@ -47,6 +48,10 @@ namespace _Botanik
             foreach(string i in Database.Type)
             {
                 comboBoxType.Items.Add(i);
+            }
+            foreach(string i in Database.AmountOfWatering)
+            {
+                comboBoxWateringAdd.Items.Add(i);
             }
         }
 
@@ -88,6 +93,13 @@ namespace _Botanik
                             Database.Phone[i]);
                     }
                     break;
+                case 2:
+                    dataGridView1.Columns.Add("_Watering", "Режим полива");
+                    for (int i = 0; i < Database.AmountOfWatering.Count; i++)
+                    {
+                        dataGridView1.Rows.Add(Database.AmountOfWatering[i]);
+                    }
+                    break;
             }
         }
 
@@ -108,11 +120,11 @@ namespace _Botanik
                 comboBoxEmpl.SelectedItem.ToString(), 
                 dateTimePickerDatePlant.Value.ToString(), 
                 textBoxPlantTime.Text, 
-                textBoxWaterAmount.Text, 
+                comboBoxWateringAdd.Text, 
                 textBoxWaterLitres.Text);
             Database.PName.Add(textBoxPlantName.Text);
             Database.PTime.Add(textBoxPlantTime.Text);
-            Database.PWatr.Add(textBoxWaterAmount.Text);
+            Database.PWatr.Add(comboBoxWateringAdd.Text);
             Database.PLitr.Add(textBoxWaterLitres.Text);
             UpdatePlantsCombo();
         }
@@ -161,6 +173,13 @@ namespace _Botanik
                         Database.PLitr[i]);
                 }
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Database.AmountOfWatering.Add(textBoxWaterAmountDir.Text);
+            DirUpdate();
+            UpdateBase();
         }
     }
 }

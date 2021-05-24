@@ -31,10 +31,10 @@ namespace _Botanik
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.comboBoxWateringAdd = new System.Windows.Forms.ComboBox();
             this.buttonAddMain = new System.Windows.Forms.Button();
             this.textBoxWaterLitres = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBoxWaterAmount = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBoxPlantTime = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -59,6 +59,10 @@ namespace _Botanik
             this.label3 = new System.Windows.Forms.Label();
             this.textBoxFIO = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBoxWaterAmountDir = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
@@ -82,6 +86,7 @@ namespace _Botanik
             this.tabControl2.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
+            this.tabPage9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.tabControl3.SuspendLayout();
@@ -105,10 +110,10 @@ namespace _Botanik
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.comboBoxWateringAdd);
             this.tabPage1.Controls.Add(this.buttonAddMain);
             this.tabPage1.Controls.Add(this.textBoxWaterLitres);
             this.tabPage1.Controls.Add(this.label10);
-            this.tabPage1.Controls.Add(this.textBoxWaterAmount);
             this.tabPage1.Controls.Add(this.label9);
             this.tabPage1.Controls.Add(this.textBoxPlantTime);
             this.tabPage1.Controls.Add(this.label8);
@@ -128,6 +133,15 @@ namespace _Botanik
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Полив";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxWateringAdd
+            // 
+            this.comboBoxWateringAdd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxWateringAdd.FormattingEnabled = true;
+            this.comboBoxWateringAdd.Location = new System.Drawing.Point(551, 453);
+            this.comboBoxWateringAdd.Name = "comboBoxWateringAdd";
+            this.comboBoxWateringAdd.Size = new System.Drawing.Size(238, 21);
+            this.comboBoxWateringAdd.TabIndex = 20;
             // 
             // buttonAddMain
             // 
@@ -154,13 +168,6 @@ namespace _Botanik
             this.label10.Size = new System.Drawing.Size(69, 13);
             this.label10.TabIndex = 17;
             this.label10.Text = "Литры воды";
-            // 
-            // textBoxWaterAmount
-            // 
-            this.textBoxWaterAmount.Location = new System.Drawing.Point(551, 452);
-            this.textBoxWaterAmount.Name = "textBoxWaterAmount";
-            this.textBoxWaterAmount.Size = new System.Drawing.Size(238, 20);
-            this.textBoxWaterAmount.TabIndex = 16;
             // 
             // label9
             // 
@@ -279,6 +286,7 @@ namespace _Botanik
             // 
             this.tabControl2.Controls.Add(this.tabPage5);
             this.tabControl2.Controls.Add(this.tabPage6);
+            this.tabControl2.Controls.Add(this.tabPage9);
             this.tabControl2.Location = new System.Drawing.Point(6, 6);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
@@ -381,6 +389,45 @@ namespace _Botanik
             this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "ФИО";
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.button1);
+            this.tabPage9.Controls.Add(this.textBoxWaterAmountDir);
+            this.tabPage9.Controls.Add(this.label14);
+            this.tabPage9.Location = new System.Drawing.Point(4, 22);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(281, 444);
+            this.tabPage9.TabIndex = 2;
+            this.tabPage9.Text = "Количество поливов";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(6, 415);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(269, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Добавить количества поливов";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBoxWaterAmountDir
+            // 
+            this.textBoxWaterAmountDir.Location = new System.Drawing.Point(6, 19);
+            this.textBoxWaterAmountDir.Name = "textBoxWaterAmountDir";
+            this.textBoxWaterAmountDir.Size = new System.Drawing.Size(269, 20);
+            this.textBoxWaterAmountDir.TabIndex = 8;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(6, 3);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(111, 13);
+            this.label14.TabIndex = 7;
+            this.label14.Text = "Количество поливов";
             // 
             // dataGridView1
             // 
@@ -532,7 +579,7 @@ namespace _Botanik
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1067, 508);
+            this.tabPage4.Size = new System.Drawing.Size(1067, 482);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Помощь";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -556,6 +603,8 @@ namespace _Botanik
             this.tabPage5.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
+            this.tabPage9.ResumeLayout(false);
+            this.tabPage9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
@@ -599,7 +648,6 @@ namespace _Botanik
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBoxPlantTime;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBoxWaterAmount;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBoxWaterLitres;
         private System.Windows.Forms.Label label10;
@@ -617,6 +665,11 @@ namespace _Botanik
         private System.Windows.Forms.DataGridView dataGridView4;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox comboBoxPlantList;
+        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.TextBox textBoxWaterAmountDir;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox comboBoxWateringAdd;
     }
 }
 
